@@ -1,0 +1,88 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+.venv*/
+venv*/
+env*/
+.pyenv/
+pip-wheel-metadata/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.pytype/
+
+# Editors/OS
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+.AppleDouble
+.LSOverride
+.ipynb_checkpoints/
+
+# Packaging/build/coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+dist/
+build/
+site/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Logs
+logs/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.sample
+
+# RAG/Index artifacts
+rag_index/
+*.npy
+*.npz
+*.faiss
+
+# Training outputs, checkpoints, and large binaries
+outputs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.gguf
+*.ckpt
+*.onnx
+*.h5
+*.tflite
+*.pb
+*.pkl
+*.joblib
+
+# Databases and local state
+*.sqlite*
+*.db
+*.db-journal
+
+# Node/JS (if present)
+node_modules/
+npm-debug.log*
+yarn-error.log*
