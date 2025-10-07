@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HyperLiquid Chat</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">HL</div>
+          <div class="brand-text">
+            <div class="title">HyperLiquid Chat</div>
+            <div class="subtitle" id="cfg">Loading…</div>
+          </div>
+        </div>
+        <div class="sessions-header">
+          <span>Conversations</span>
+          <button id="newChat" title="New chat">＋</button>
+        </div>
+        <div class="sessions" id="sessions"></div>
+        <div class="sidebar-footer">
+          <label class="select-wrap">
+            <span>RT mode</span>
+            <select id="rtMode">
+              <option value="prefer" selected>Prefer</option>
+              <option value="merge">Merge</option>
+              <option value="off">Off</option>
+            </select>
+          </label>
+        </div>
+      </aside>
+      <main class="chat">
+        <div id="mcpPanel" class="mcp-panel collapsed">
+          <div class="mcp-toolbar">
+            <div class="mcp-title">Real-time</div>
+            <div class="mcp-actions">
+              <label class="mcp-tool-wrap">
+                <span>Tool</span>
+                <select id="mcpTool"></select>
+              </label>
+              <button id="mcpToggle" aria-expanded="false" title="Show/Hide real-time panel">Show</button>
+              <button id="mcpClear" title="Clear real-time log">Clear</button>
+            </div>
+          </div>
+          <div class="mcp-content">
+            <div id="mcpRt" class="mcp-rt"></div>
+            <div id="mcpCard" class="mcp-card"></div>
+          </div>
+        </div>
+        <div id="messages" class="messages">
+          <div class="welcome">
+            <h1>Ask markets. Get answers.</h1>
+            <p>Ask about funding, OI, premium, orderbooks, slippage, and more.</p>
+          </div>
+        </div>
+        <div class="composer">
+          <input id="input" type="text" placeholder="Message HyperLiquid Chat" autofocus />
+          <div class="actions">
+            <button id="send">Send</button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="/static/main.js"></script>
+  </body>
+  </html>
+
+
