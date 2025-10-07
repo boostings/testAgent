@@ -7,9 +7,9 @@ Very, very, early and rushed version of a Hyperliquid-knowledgable model by usin
 Not quality work at all, but mainly using this for a school project that will eventually be integrated into my product. 
 
 
-1.) Activate .venv (source .venv/bin/activate)
-2.) Download requirements.txt (can run -r) 
-3.) Run the RAG_chat
+1.) Activate .venv (source .venv/bin/activate) \n
+2.) Download requirements.txt (can run -r) \n
+3.) Run the RAG_chat \n
 
 ~ python rag_chat.py \
   --dataset /hyperLiquidAgent/test/runs/current/chunks.cleaned.jsonl \
