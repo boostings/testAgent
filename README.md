@@ -1,3 +1,5 @@
+**UPDATE: This was scraped as I found a better implementation via MCP. RAG is truly outdated in the age of Skills, .md files, and any other ways of injecting context into LLM's.**
+
 Very, very, early and rushed version of a Hyperliquid-knowledgable model by using a combination of RAG and custom MCP tools with the Hyperliquid API. There's a lot of things that I plan on doing here, such as.
 
 - Swapping the miniature Qwen model to GPT OSS-20b or another larger model with a better base-all-around knowledge. 
